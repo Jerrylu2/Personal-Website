@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ME 370 Mechanical Design I | Jerry J. Lu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>JERRY J. LU</h1>
+        <p class="subtitle">Mechanical Engineering | University of Illinois at Urbana-Champaign</p>
+        <nav>
+            <a href="index.html">About</a>
+            <a href="resume.html">Experiences</a>
+            <a href="portfolio.html" class="active">Projects</a>
+        </nav>
+    </header>
+
+    <main class="project-flow">
+        <div class="project-header">
+            <h2 class="project-title">ME 370 MECHANICAL DESIGN I</h2>
+            <p class="date">2025</p>
+        </div>
+
+        <section class="project-section">
+            <h3>Project Concept: The Walking Dispenser</h3>
+            <p>
+                The primary objective of ME 370 Mechanical Design I was to design and manufacture a walking-dispensing mechanism. The challenge required the robot to traverse a distance at a minimum speed of 4 m/min while accurately dispensing a payload every 2 meters. This required a deep integration of kinematics and mechanical synchronization.
+            </p>
+            <div class="media-placeholder">Full view of the Walking-Dispensing Mechanism in motion</div>
+            <p>
+                To achieve the walking motion, I designed a specialized 4-bar linkage for the walker using path synthesis software. This allowed for a stable gait that minimized energy loss. For the dispensing unit, I implemented a quick return 4-bar linkage with a dyad driver, which was geometrically optimized using two prescribed locations to ensure consistent timing and placement of the payload.
+            </p>
+        </section>
+
+        <section class="project-section">
+            <h3>Design & Optimization</h3>
+            <div class="media-placeholder">Fusion 360 Generative Design - Chassis Optimization</div>
+            <p>
+                A key focus of the project was structural efficiency. I utilized Fusion 360's Generative Design feature to optimize the chassis, resulting in a lightweight yet rigid structure that could withstand the forces of continuous movement. The final chassis design was 3D printed in PLA, balancing cost-effectiveness with rapid prototyping speed.
+            </p>
+            <div class="media-placeholder">Detail of the Herringbone Gear Assembly</div>
+            <p>
+                To ensure smooth power transmission, I calculated the specific gear ratios needed to dispense the payload at precise intervals. I chose to use herringbone gears to minimize backlash and reduce the total number of parts, which significantly increased the reliability of the mechanism. Additionally, I focused on stability by keeping the center of gravity low through the intelligent placement of the motor and battery packs.
+            </p>
+        </section>
+
+        <section class="project-section">
+            <h3>Results & Validation</h3>
+            <p>
+                The final product was a resounding success, produced entirely within the strict 100-dollar budget constraint. During validation, the mechanism far exceeded the initial speed requirements, reaching a walking speed of 12 m/min.
+            </p>
+            <div class="media-placeholder">Final Testing Video - Walking Speed and Dispensing Accuracy</div>
+            <p>
+                While the robot was highly efficient, we observed some inconsistency in the dispense distance (averaging 2.5m instead of the target 2m) due to leg slip on certain surfaces. To mitigate this, I performed a detailed PVA (Position, Velocity, Acceleration) analysis by modifying a provided Python template, allowing us to better understand the dynamics of the leg slip and plan for future mechanical improvements.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Updated April 2026</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

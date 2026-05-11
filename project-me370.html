@@ -28,7 +28,7 @@
             <p>
                 The primary objective of ME 370 Mechanical Design I was to design and manufacture a walking-dispensing mechanism. The challenge required the robot to traverse a distance at a minimum speed of 4 m/min while accurately dispensing a payload every 2 meters. This required a deep integration of kinematics and mechanical synchronization.
             </p>
-            <div class="media-placeholder">Full view of the Walking-Dispensing Mechanism in motion</div>
+            <img src="portfolio-files/me370/walker-v2.webp" alt="Walking-Dispensing Mechanism" class="project-media-item">
             <p>
                 To achieve the walking motion, I designed a specialized 4-bar linkage for the walker using path synthesis software. This allowed for a stable gait that minimized energy loss. For the dispensing unit, I implemented a quick return 4-bar linkage with a dyad driver, which was geometrically optimized using two prescribed locations to ensure consistent timing and placement of the payload.
             </p>
@@ -36,11 +36,11 @@
 
         <section class="project-section">
             <h3>Design & Optimization</h3>
-            <div class="media-placeholder">Fusion 360 Generative Design - Chassis Optimization</div>
+            <iframe class="project-media-item" src="https://www.youtube.com/embed/xmmhtdY4wYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p>
                 A key focus of the project was structural efficiency. I utilized Fusion 360's Generative Design feature to optimize the chassis, resulting in a lightweight yet rigid structure that could withstand the forces of continuous movement. The final chassis design was 3D printed in PLA, balancing cost-effectiveness with rapid prototyping speed.
             </p>
-            <div class="media-placeholder">Detail of the Herringbone Gear Assembly</div>
+            <iframe class="project-media-item" src="https://www.youtube.com/embed/OPP0N6a6_Hs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p>
                 To ensure smooth power transmission, I calculated the specific gear ratios needed to dispense the payload at precise intervals. I chose to use herringbone gears to minimize backlash and reduce the total number of parts, which significantly increased the reliability of the mechanism. Additionally, I focused on stability by keeping the center of gravity low through the intelligent placement of the motor and battery packs.
             </p>
@@ -51,7 +51,7 @@
             <p>
                 The final product was a resounding success, produced entirely within the strict 100-dollar budget constraint. During validation, the mechanism far exceeded the initial speed requirements, reaching a walking speed of 12 m/min.
             </p>
-            <div class="media-placeholder">Final Testing Video - Walking Speed and Dispensing Accuracy</div>
+            <iframe class="project-media-item" src="https://www.youtube.com/embed/yWTixawF-jY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p>
                 While the robot was highly efficient, we observed some inconsistency in the dispense distance (averaging 2.5m instead of the target 2m) due to leg slip on certain surfaces. To mitigate this, I performed a detailed PVA (Position, Velocity, Acceleration) analysis by modifying a provided Python template, allowing us to better understand the dynamics of the leg slip and plan for future mechanical improvements.
             </p>

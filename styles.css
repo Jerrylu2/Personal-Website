@@ -241,12 +241,6 @@ h2 {
   font-size: 1.1rem;
 }
 
-.project-flow .media-placeholder {
-  margin: 2.5rem 0;
-  width: 100%;
-  aspect-ratio: 16/9;
-}
-
 .project-flow h3 {
   font-size: 1rem;
   text-transform: uppercase;
@@ -304,11 +298,10 @@ h2 {
   gap: 1.5rem;
 }
 
-.media-placeholder {
+.media-placeholder, .project-media-item {
   width: 100%;
   aspect-ratio: 16/9;
   background-color: #f0f0f0;
-  border: 2px dashed #ddd;
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -317,6 +310,16 @@ h2 {
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  margin: 2.5rem 0;
+}
+
+.media-placeholder {
+  border: 2px dashed #ddd;
+}
+
+.project-media-item {
+  border: none;
+  object-fit: cover;
 }
 
 .back-link {
